@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="StyleMIGUEL.css">
+    <script src="js/main.js"></script>
+
+</head>
+
+<body>
+<header>
+    <div class="menu">
+
+
+        <a class="nombre">By Miguel Lombana</a>
+
+        <ul id="menu">     <li><a href="index.html"> Inicio</a></li>
+            <li><a href="galeriaMIGUEL.html">Catalogo</a></li>
+            <li><a href="rutasMIGUEL.html">Experiencias</a></li>
+            <li><a href="formularioMIGUEL.html">Contacto</a></li>
+        </ul>
+
+    </div>
+</header>
+<br>
+
+<a
+        onmouseover="window.document['imagen1'].src = iluminada.src"
+        onmouseout="window.document['imagen1'].src = apagada.src"
+>
+    <img src="img/pulse.png" name="imagen1" width=84 height=34 id="mi-imagen">
+</a>
+
+
+<div id="formulario"  >
+    <div id="formulario2">
+
+
+                            <form method="post" >
+                                <h2 id="contacto" >Contacto</h2>
+                                <div id="nombre"><input class="form-control" type="text" id="name-2" name="name" placeholder="Name"></div>
+                                <div id="email"><input class="form-control" type="email" id="email-2" name="email" placeholder="Email"></div>
+                                <div id="mensaje"><textarea class="form-control" id="message-2" name="message" rows="6" placeholder="Message"></textarea></div>
+                                <div><button id="enviar" type="submit" >Enviar</button></div>
+                            </form>
+    </div>
+</div>
+
+
+</body>
+
+</html>
